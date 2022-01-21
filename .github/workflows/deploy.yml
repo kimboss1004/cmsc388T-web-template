@@ -18,4 +18,4 @@ jobs:
           script: |
             cd terpsite
             git pull
-            cp ./* ../../pub/ -f
+            cp ./* ../../pub/ -f -R
